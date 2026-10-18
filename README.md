@@ -2,7 +2,7 @@
 
 [![License: DeepSeek](https://img.shields.io/badge/License-DeepSeek%20Model%20License-blue.svg)](LICENSE)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DeepSeek--MoE--16B--SAMI--AsymQ-yellow.svg)](https://huggingface.co/MIThridate/DeepSeek-MoE-16B-Chat-SAMI-AsymQ)
-[![Inference Engine](https://img.shields.io/badge/Inference%20Engine-llama.cpp%20(-cmoe)-orange.svg)](https://github.com/ggerganov/llama.cpp)
+[![llama.cpp](https://img.shields.io/badge/llama.cpp-CPU--MoE%20Offload-orange.svg)](https://github.com/ggerganov/llama.cpp)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)
 
 This repository provides reproducible configuration, client utilities, and empirical benchmark telemetry for running **DeepSeek-MoE-16B-Chat** locally on consumer workstations (e.g., an NVIDIA GeForce GTX 1060 6GB with 16GB–32GB DDR4 host RAM) via [`llama.cpp`](https://github.com/ggerganov/llama.cpp) with CPU-MoE offloading (`-cmoe`).
